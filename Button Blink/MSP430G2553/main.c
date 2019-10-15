@@ -14,7 +14,7 @@ void main(void)
 
     P1DIR = BIT0;              //sets P1.0 as an output
     P1REN = BIT3;              //Enables internal resistor
-    P1OUT = BIT3;              //P1.1 is an input pin and sets as normally high
+    P1OUT = BIT3;              //P1.3 is an input pin and sets as normally high
 
     while(1)
     {
